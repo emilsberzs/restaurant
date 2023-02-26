@@ -1,12 +1,21 @@
 h1 {
+    display: grid;
     text-align: center;
     background: url('./image.jpg');
     height: 200px;
+    font-size: 5em;
+    align-items: center;
+    margin-top: 0px;
+}
+
+header {
+    background: url(image.jpg);
 }
 
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 
@@ -52,4 +61,6 @@ nav a {
 #usp-image {
     grid-column: 3;
     grid-row: 2;
+    margin-left: auto;
+    margin-right: auto;
 }
