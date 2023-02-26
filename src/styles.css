@@ -9,18 +9,15 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-nav li {
-    list-style: none;
-    text-align: center;
-    background-color: bisque;
-}
 
-nav li a {
+nav a {
+    display: grid;
     text-decoration: none;
     color: black;
     font-weight: bolder;
     font-size: 2em;
     background-color: blanchedalmond;
+    justify-content: center;
 }
 
 #usp {
