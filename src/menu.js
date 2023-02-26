@@ -1,5 +1,5 @@
 export const menuBuilder = function () {
-    const content = document.getElementById('content')
+    const main = document.querySelector('main')
     const menuList = document.createElement('div')
     menuList.setAttribute('id', 'menuDiv')
     const menuItemOne = document.createElement('p')
@@ -8,6 +8,6 @@ export const menuBuilder = function () {
     const menuItemTwo = document.createElement('p')
     menuItemTwo.setAttribute('id', 'menuItemTwo')
     menuItemTwo.innerHTML = 'Potatoes'
-    content.appendChild(menuItemOne)
-    content.appendChild(menuItemTwo)
+    main.appendChild(menuItemOne)
+    main.appendChild(menuItemTwo)
 }
