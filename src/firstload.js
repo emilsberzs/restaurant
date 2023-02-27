@@ -1,5 +1,8 @@
-export const homePage = function () {
-    const main = document.querySelector('main')
+export const firstLoad = function () {
+    //Initialize 'CONTENT' DIV
+    const content = document.getElementById('content')
+    //MAIN
+    const main = document.createElement('main')
     const usp = document.createElement('div')
     usp.setAttribute('id', 'usp')
     const usp1 = document.createElement('div')
@@ -17,4 +20,5 @@ export const homePage = function () {
     usp_image.setAttribute('height', '200px')
     usp.append(usp1, usp2, usp3, usp_image)
     main.appendChild(usp)
+    content.appendChild(main)
 }
